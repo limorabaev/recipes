@@ -1,0 +1,36 @@
+@import "./cmps/recipe-preview.css";
+@import "./cmps/search.css";
+
+
+@import "./views/recipe-details.css";
+@import "./views/home-page.css";
+
+
+
+
+@import "./cmps/recipe-list.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Oswald', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+ {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

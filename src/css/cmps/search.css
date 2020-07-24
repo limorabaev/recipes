@@ -1,0 +1,32 @@
+.search {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.searchTerm {
+    width: 30%;
+    height: 30px;
+
+}
+.searchButton {
+    height: 30px;
+    box-shadow: none;
+    /* width: 40px;
+    border: 1px solid  black;
+    background:  black;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px; */
+}
+
+@media screen and (max-width: 850px){
+    .searchTerm {
+        width: 40%;
+    
+    }
+}
